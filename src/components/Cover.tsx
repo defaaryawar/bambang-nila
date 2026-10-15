@@ -26,14 +26,14 @@ export function Cover({ guest, play, onOpen }: Props) {
       {/* Foto latar dengan efek Ken Burns */}
       <motion.div
         className="absolute inset-0"
-        initial={{ scale: 1.25 }}
-        animate={play ? { scale: 1.05 } : undefined}
+        initial={{ scale: 1.12 }}
+        animate={play ? { scale: 1 } : undefined}
         transition={{ duration: 9, ease: [0.2, 0.6, 0.2, 1] }}
       >
         <img
           src={photo(wedding.photos.cover, 1000)}
           alt="Nila dan Bambang"
-          className="photo-tone absolute inset-x-0 -top-[20%] h-[120%] w-full object-cover object-center"
+          className="photo-tone absolute inset-x-0 -top-[26%] h-[114%] w-full object-cover object-[50%_80%]"
         />
       </motion.div>
       <div className="absolute inset-0 bg-gradient-to-b from-ink/70 via-transparent to-ink/90" />
