@@ -93,11 +93,11 @@ export const wedding = {
   ] as [string, string][],
 
   photos: {
-    cover: IMG.drone,
+    cover: IMG.prewed,
     aside: IMG.walk,
     hero: IMG.prewed,
     quote: IMG.brideWide,
-    saveTheDate: IMG.drone,
+    saveTheDate: IMG.bouquet,
     closing: IMG.walk,
   },
 
@@ -152,6 +152,7 @@ export const wedding = {
     {
       year: '2023',
       title: 'Dua kota',
+      photo: IMG.drone,
       text: [
         'Pekerjaan membawa mereka ke kota yang berbeda. Hari-hari diisi panggilan video yang sering putus karena sinyal, paket berisi camilan dari rumah, dan tiket kereta yang dibeli jauh-jauh hari supaya bisa bertemu di akhir pekan.',
         'Jarak tidak membuat semuanya lebih mudah. Tapi justru dari situ mereka belajar bahwa yang ingin dijaga bukan sekadar perasaan, melainkan satu sama lain.',

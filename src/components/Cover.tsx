@@ -33,7 +33,7 @@ export function Cover({ guest, play, onOpen }: Props) {
         <img
           src={photo(wedding.photos.cover, 1000)}
           alt="Nila dan Bambang"
-          className="photo-tone size-full object-cover object-[50%_30%]"
+          className="photo-tone absolute inset-x-0 -top-[20%] h-[120%] w-full object-cover object-center"
         />
       </motion.div>
       <div className="absolute inset-0 bg-gradient-to-b from-ink/70 via-transparent to-ink/90" />

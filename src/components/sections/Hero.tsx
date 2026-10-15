@@ -35,11 +35,11 @@ export function Hero({ scroller, play }: Props) {
           animate={play ? { scale: 1 } : undefined}
           transition={{ duration: 2.4, ease: EASE, delay: 0.3 }}
         />
-        <div className="absolute inset-x-0 bottom-0 h-2/5 bg-gradient-to-t from-paper via-paper/60 to-transparent" />
+        <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-paper from-15% via-paper/70 to-transparent" />
         <RotatingBadge play={play} />
       </motion.div>
 
-      <div className="relative -mt-20 px-6 pb-16 text-center">
+      <div className="relative -mt-14 px-6 pb-16 text-center">
         <motion.p className="eyebrow text-stone" {...fade(0.9)}>
           We're getting married
         </motion.p>
