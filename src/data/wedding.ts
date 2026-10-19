@@ -15,11 +15,12 @@ const IMG = {
   drone: '/images/mempelai-bambang-nila-droneview.webp',
   walk: '/images/mempelai-bambang-nila-jalan.webp',
   bride: '/images/mempelai-nila.webp',
-  brideSolo: '/images/mempelai-nila-1.webp',
   brideWide: '/images/mempelai-nila-wide.webp',
   bouquet: '/images/mempelai-nila-zoom.webp',
   groom: '/images/mempelai-bambang-potrait.webp',
   prewed: '/images/mempelai-prewed.webp',
+  groomBatik: '/images/mempelai-bambang-batik.webp',
+  brideKebaya: '/images/mempelai-nila-kebaya.webp',
   studioBench: '/images/prewed-studio-bangku.webp',
 }
 
@@ -33,13 +34,13 @@ export const wedding = {
     nick: 'Nila',
     full: 'Nila Bernadet',
     parents: 'Putri dari Bpk. Wardiyono (Alm) & Ibu Suwarsih (Almh)',
-    photo: IMG.brideSolo,
+    photo: IMG.brideKebaya,
   },
   groom: {
     nick: 'Bambang',
     full: 'Bambang Joko Irawan',
     parents: 'Putra dari Bpk. Agus Supriadi & Ibu Sofiatun (Almh)',
-    photo: IMG.groom,
+    photo: IMG.groomBatik,
   },
 
   /** Tanggal utama (dipakai countdown & cover). Format ISO dengan zona WIB. */
