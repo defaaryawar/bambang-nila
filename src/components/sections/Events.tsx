@@ -115,13 +115,29 @@ export function Events() {
         ))}
       </div>
 
-      <FadeUp className="mt-4 overflow-hidden rounded-[28px] border border-ink/10 bg-paper">
-        <iframe
-          title="Peta lokasi resepsi"
-          src={wedding.mapsEmbed}
-          loading="lazy"
-          className="block h-56 w-full border-0 grayscale-[0.85] contrast-[1.05]"
-        />
+      {/* Catatan iOS Safari: URL embed dipakai langsung (bukan maps?output=embed yang di-redirect
+          dengan X-Frame-Options), iframe di dalam kontainer scroll (main) tidak dimuat kalau
+          pakai loading="lazy", dan CSS filter pada iframe lintas-domain bisa membuatnya kosong.
+          Jadi iframe dimuat langsung, tanpa filter, dan sudut membulat dipotong lewat lapisan
+          sendiri (isolate) supaya WebKit tetap menggambar isinya. */}
+      <FadeUp className="mt-4">
+        <div className="isolate overflow-hidden rounded-[28px] border border-ink/10 bg-bone [transform:translateZ(0)]">
+          <iframe
+            title="Peta lokasi resepsi"
+            src={wedding.mapsEmbed}
+            referrerPolicy="no-referrer-when-downgrade"
+            className="block h-56 w-full border-0"
+          />
+          <a
+            href={wedding.events[1].maps}
+            target="_blank"
+            rel="noreferrer"
+            className="flex items-center justify-between border-t border-ink/10 px-5 py-3.5 text-[12px] font-medium tracking-wide text-ink"
+          >
+            Buka di Google Maps
+            <ArrowUpRight className="size-4" strokeWidth={1.6} />
+          </a>
+        </div>
       </FadeUp>
     </section>
   )

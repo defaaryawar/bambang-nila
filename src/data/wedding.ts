@@ -53,7 +53,7 @@ export const wedding = {
   dateWords: 'thirty-one october',
   city: 'Ciputat',
   /** Peta yang ditanam di section Acara */
-  mapsEmbed: `https://maps.google.com/maps?q=${VENUE_COORDS}&z=17&output=embed`,
+  mapsEmbed: `https://www.google.com/maps/embed?origin=mfe&pb=!1m3!2m1!1s${VENUE_COORDS}!6i17!3m1!1sid!5m1!1sid`,
 
   /** Kalimat pembuka & penutup di section Mempelai (sesuai kartu undangan) */
   opening: {
