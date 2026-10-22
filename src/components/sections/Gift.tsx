@@ -1,5 +1,5 @@
 import { AnimatePresence, motion } from 'framer-motion'
-import { Check, Copy, Gift as GiftIcon } from 'lucide-react'
+import { Check, Copy, CreditCard, Gift as GiftIcon } from 'lucide-react'
 import { useState } from 'react'
 import { wedding } from '../../data/wedding'
 import { EASE } from '../ui/ease'
@@ -55,7 +55,7 @@ function CopyButton({ text, label, dark }: { text: string; label: string; dark?:
 export function Gift() {
   return (
     <section id="hadiah" className="relative overflow-hidden bg-bone px-6 py-24 text-ink">
-      <SectionLabel index="06">
+      <SectionLabel index="07">
         Wedding Gift
       </SectionLabel>
       <h2 className="mt-6 font-serif text-[min(15cqw,64px)] leading-[0.95] tracking-[-0.03em]">
@@ -65,11 +65,32 @@ export function Gift() {
       <FadeUp>
         <p className="mt-5 max-w-[34ch] text-[13px] leading-relaxed text-stone">
           Kehadiran dan doa restu Anda sudah lebih dari cukup bagi kami. Namun bila ingin mengirimkan tanda kasih, dapat
-          dikirimkan ke alamat berikut.
+          dikirimkan melalui rekening atau alamat berikut.
         </p>
       </FadeUp>
 
-      <FadeUp className="mt-10 rounded-[22px] border border-ink/10 bg-paper p-5">
+      <div className="mt-10 space-y-3">
+        {wedding.banks.map((b, i) => (
+          <FadeUp key={b.bank} delay={0.08 * i} className="rounded-[22px] bg-ink p-5 text-paper">
+            <div className="flex items-center justify-between">
+              <span className="font-serif text-[26px] leading-none tracking-[0.02em]">{b.bank}</span>
+              <CreditCard className="size-5 text-gold-soft" strokeWidth={1.4} />
+            </div>
+            <p className="mt-6 font-mono text-[19px] tracking-[0.12em] tabular-nums">
+              {b.number.replace(/(\d{4})(?=\d)/g, '$1 ')}
+            </p>
+            <div className="mt-4 flex items-end justify-between gap-3">
+              <div>
+                <p className="eyebrow text-[9px] text-paper/50">Atas nama</p>
+                <p className="mt-1 text-[13px]">{b.name}</p>
+              </div>
+              <CopyButton text={b.number} label="Salin" dark />
+            </div>
+          </FadeUp>
+        ))}
+      </div>
+
+      <FadeUp className="mt-3 rounded-[22px] border border-ink/10 bg-paper p-5">
         <div className="flex items-center gap-2 text-gold">
           <GiftIcon className="size-4" strokeWidth={1.5} />
           <span className="eyebrow">Kirim Hadiah</span>

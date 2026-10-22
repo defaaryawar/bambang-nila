@@ -8,7 +8,7 @@ export function Letter() {
   const { letter } = wedding
   return (
     <section id="surat" className="bg-bone px-6 py-24 text-ink">
-      <SectionLabel index="04">Sepucuk Surat</SectionLabel>
+      <SectionLabel index="05">Sepucuk Surat</SectionLabel>
       <h2 className="mt-6 font-serif text-[min(15cqw,64px)] leading-[0.95] tracking-[-0.03em]">
         <SplitText text="Dari kami," className="block" />
         <SplitText text="untuk Anda" className="block italic" delay={0.1} />
@@ -62,7 +62,7 @@ export function Letter() {
 export function Promises() {
   return (
     <section id="janji" className="bg-paper px-6 py-24 text-ink">
-      <SectionLabel index="05">Janji &amp; Doa</SectionLabel>
+      <SectionLabel index="06">Janji &amp; Doa</SectionLabel>
       <h2 className="mt-6 font-serif text-[min(15cqw,64px)] leading-[0.95] tracking-[-0.03em]">
         <SplitText text="Janji kecil" className="block" />
         <SplitText text="kami berdua" className="block italic" delay={0.1} />

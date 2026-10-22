@@ -10,7 +10,7 @@ export function Story({ scroller }: { scroller: RefObject<HTMLElement | null> })
 
   return (
     <section id="kisah" className="relative overflow-hidden bg-paper px-6 py-24 text-ink">
-      <SectionLabel index="03">
+      <SectionLabel index="04">
         Love Story
       </SectionLabel>
       <h2 className="mt-6 font-serif text-[min(15cqw,64px)] leading-[0.95] tracking-[-0.03em]">

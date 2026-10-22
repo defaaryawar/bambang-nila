@@ -8,6 +8,7 @@ import { MusicPlayer } from './components/MusicPlayer'
 import { Couple } from './components/sections/Couple'
 import { Closing, Footer } from './components/sections/Closing'
 import { Events, SaveTheDate } from './components/sections/Events'
+import { Entertainment } from './components/sections/Entertainment'
 import { Gift } from './components/sections/Gift'
 import { Hero } from './components/sections/Hero'
 import { Invited } from './components/sections/Invited'
@@ -61,6 +62,7 @@ export default function App() {
             <Couple />
             <SaveTheDate scroller={scroller} />
             <Events />
+            <Entertainment />
             <Story scroller={scroller} />
             <Marquee />
             <Letter />

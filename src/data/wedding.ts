@@ -22,6 +22,7 @@ const IMG = {
   groomBatik: '/images/mempelai-bambang-batik.webp',
   brideKebaya: '/images/mempelai-nila-kebaya.webp',
   studioBench: '/images/prewed-studio-bangku.webp',
+  hiburan: '/images/hiburan-pernikahan.webp',
 }
 
 /** Lokasi acara (Kebon Kosong Legend, Jl. Elang II, Sawah Lama, Ciputat) */
@@ -197,6 +198,21 @@ export const wedding = {
       'Semoga Allah memberkahimu di waktu bahagia, memberkahimu di waktu susah, dan mengumpulkan kalian berdua dalam kebaikan.',
     source: 'HR. Abu Dawud & At-Tirmidzi',
   },
+
+  /** Hiburan di hari H (sesuai banner dari keluarga) */
+  entertainment: {
+    banner: IMG.hiburan,
+    acts: [
+      { time: '09.00 — 12.00 WIB', title: 'Reog Ponorogo', by: 'Roso Jati' },
+      { time: '13.00 — 20.00 WIB', title: 'Campursari', by: 'AS Campursari' },
+    ],
+  },
+
+  /** Rekening untuk tanda kasih */
+  banks: [
+    { bank: 'BNI', number: '0330853282', name: 'Nila Bernadet' },
+    { bank: 'BCA', number: '8780332302', name: 'Nila Bernadet' },
+  ],
 
   giftAddress: {
     name: 'Nila Bernadet',

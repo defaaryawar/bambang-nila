@@ -7,7 +7,7 @@ import { SectionLabel, SplitText } from '../ui/motion'
 export function Invited() {
   return (
     <section className="bg-paper px-6 py-24 text-ink">
-      <SectionLabel index="07">Turut Mengundang</SectionLabel>
+      <SectionLabel index="08">Turut Mengundang</SectionLabel>
       <h2 className="mt-6 font-serif text-[min(15cqw,64px)] leading-[0.95] tracking-[-0.03em]">
         <SplitText text="Bersama" className="block" />
         <SplitText text="keluarga besar" className="block italic" delay={0.1} />
