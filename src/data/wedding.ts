@@ -134,37 +134,41 @@ export const wedding = {
   // `photo` opsional: bab tanpa foto tampil teks saja.
   story: [
     {
-      year: '2019',
-      title: 'Satu kursi kosong',
+      year: '2023',
+      title: 'Maulid Nabi Muhammad SAW',
       text: [
-        'Perpustakaan kampus sedang penuh-penuhnya menjelang ujian. Bambang berkeliling cukup lama mencari tempat duduk, dan satu-satunya kursi yang tersisa ada di depan Nila. Ia bertanya pelan, “Boleh duduk di sini?” Nila mengangguk tanpa banyak berpikir.',
-        'Sore itu tidak ada yang benar-benar selesai belajar. Obrolan soal tugas berubah jadi cerita tentang kota asal, makanan kesukaan, dan lagu yang sama-sama sedang mereka putar berulang-ulang. Mereka baru sadar hari sudah gelap ketika petugas mulai mematikan lampu satu per satu.',
+        'Semua berawal dari sebuah pertemuan sederhana di acara Maulid Nabi Muhammad SAW. Saat itu, Nila bertugas sebagai pembawa acara, sementara Bambang hadir sebagai pengajar yang mengisi acara.',
+        'Siapa sangka, pertemuan yang awalnya hanya sebatas menjalankan tugas masing-masing itu menjadi awal dari sebuah cerita. Tanpa pernah menyangka, hari itu menjadi langkah pertama dari perjalanan panjang yang kelak mempertemukan dua hati dalam satu tujuan.',
       ],
     },
     {
-      year: '2021',
-      title: 'Pelan-pelan',
+      year: '2024',
+      title: 'Pelan-Pelan',
       photo: IMG.studioBench,
       text: [
-        'Tidak ada pernyataan yang dramatis. Yang ada hanya pesan selamat pagi yang tidak pernah absen, payung yang selalu dibawa dua, dan kebiasaan saling menunggu di depan gerbang kampus.',
-        'Mereka mengenal satu sama lain lewat hal-hal kecil: Nila yang selalu minta teh tidak terlalu manis, Bambang yang diam sebentar sebelum menjawab pertanyaan yang penting. Hal-hal kecil itu yang lama-lama terasa seperti rumah.',
+        'Tidak ada pernyataan cinta yang dramatis, tidak ada janji manis yang berlebihan. Yang ada hanya sapaan sederhana, “Assalamualaikum,” dan perhatian kecil seperti, “Jangan lupa makan.”',
+        'Pelan-pelan, percakapan sederhana itu menjadi kebiasaan. Perhatian kecil berubah menjadi rasa nyaman, dan tanpa disadari, dua hati mulai saling menemukan tempat untuk pulang.',
+        'Tak perlu terburu-buru, karena ternyata cinta tidak selalu datang dengan cara yang luar biasa. Terkadang, ia tumbuh diam-diam melalui hal-hal sederhana yang dilakukan dengan tulus.',
       ],
     },
     {
-      year: '2023',
-      title: 'Dua kota',
+      year: '2025',
+      title: 'Perbedaan Waktu, Satu Tujuan',
       photo: IMG.drone,
       text: [
-        'Pekerjaan membawa mereka ke kota yang berbeda. Hari-hari diisi panggilan video yang sering putus karena sinyal, paket berisi camilan dari rumah, dan tiket kereta yang dibeli jauh-jauh hari supaya bisa bertemu di akhir pekan.',
-        'Jarak tidak membuat semuanya lebih mudah. Tapi justru dari situ mereka belajar bahwa yang ingin dijaga bukan sekadar perasaan, melainkan satu sama lain.',
+        'Tahun ini mengajarkan kami bahwa mencintai bukan berarti harus selalu bersama setiap waktu. Kesibukan pekerjaan dan perbedaan jam aktivitas membuat kami belajar memahami, menunggu, dan saling menguatkan dari kejauhan.',
+        'Meski waktu untuk bertemu tak selalu mudah, kami belajar bahwa hubungan bukan hanya tentang seberapa sering bisa bersama, tetapi tentang bagaimana tetap saling menjaga di tengah kesibukan.',
+        'Perlahan, kami semakin memahami bahwa cinta bukan sekadar hadir di saat lapang, melainkan tetap memilih untuk bertahan, saling mendukung, dan melangkah bersama menuju tujuan yang sama.',
       ],
     },
     {
       year: '2026',
-      title: 'Lamaran',
+      title: 'Sebuah Keseriusan',
       text: [
-        'Di ruang tamu yang dipenuhi keluarga, Bambang datang bersama orang tuanya membawa niat yang sudah lama ia simpan. Tidak ada kejutan berlebihan, hanya kalimat yang disusun dengan hati-hati dan jawaban yang membuat dua keluarga tersenyum lega.',
-        'Sejak hari itu, mereka mulai menghitung hari menuju 31 Oktober.',
+        'Setelah perjalanan panjang yang dipenuhi cerita, doa, dan proses saling memahami, akhirnya kami sampai pada satu langkah yang lebih serius: lamaran.',
+        'Bukan karena perjalanan kami selalu mudah, tetapi karena kami percaya bahwa setiap proses telah mengajarkan arti kesabaran, komitmen, dan kesungguhan.',
+        'Dengan restu keluarga dan doa yang mengiringi, kami memantapkan hati untuk melangkah ke tahap berikutnya. Bukan lagi sekadar dua orang yang saling menyayangi, melainkan dua hati yang siap menyatukan harapan dan merencanakan masa depan bersama.',
+        'Karena pada akhirnya, bukan tentang seberapa cepat kami sampai, melainkan tentang keyakinan untuk memilih satu sama lain.',
       ],
     },
   ],
