@@ -210,8 +210,8 @@ export const wedding = {
 
   /** Rekening untuk tanda kasih */
   banks: [
-    { bank: 'BNI', number: '0330853282', name: 'Nila Bernadet' },
-    { bank: 'BCA', number: '8780332302', name: 'Nila Bernadet' },
+    { bank: 'BNI', number: '0330853282', name: 'Nila Bernadet', logo: '/images/logo-bni.svg', color: '#f15a22', deep: '#006885' },
+    { bank: 'BCA', number: '8780332302', name: 'Nila Bernadet', logo: '/images/logo-bca.svg', color: '#0060af', deep: '#003d73' },
   ],
 
   giftAddress: {
