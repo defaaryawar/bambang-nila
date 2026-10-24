@@ -22,7 +22,7 @@ const IMG = {
   prewedStudio: '/images/mempelai-prewed-studio.webp',
   groomBatik: '/images/mempelai-bambang-batik.webp',
   brideKebaya: '/images/mempelai-nila-kebaya.webp',
-  studioBench: '/images/prewed-studio-bangku.webp',
+  studioWhisper: '/images/prewed-studio-bisik.webp',
   hiburan: '/images/hiburan-pernikahan.webp',
 }
 
@@ -146,7 +146,7 @@ export const wedding = {
     {
       year: '2024',
       title: 'Pelan-Pelan',
-      photo: IMG.studioBench,
+      photo: IMG.studioWhisper,
       text: [
         'Tidak ada pernyataan cinta yang dramatis, tidak ada janji manis yang berlebihan. Yang ada hanya sapaan sederhana, “Assalamualaikum,” dan perhatian kecil seperti, “Jangan lupa makan.”',
         'Pelan-pelan, percakapan sederhana itu menjadi kebiasaan. Perhatian kecil berubah menjadi rasa nyaman, dan tanpa disadari, dua hati mulai saling menemukan tempat untuk pulang.',
