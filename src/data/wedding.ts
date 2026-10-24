@@ -19,6 +19,7 @@ const IMG = {
   bouquet: '/images/mempelai-nila-zoom.webp',
   groom: '/images/mempelai-bambang-potrait.webp',
   prewed: '/images/mempelai-prewed.webp',
+  prewedStudio: '/images/mempelai-prewed-studio.webp',
   groomBatik: '/images/mempelai-bambang-batik.webp',
   brideKebaya: '/images/mempelai-nila-kebaya.webp',
   studioBench: '/images/prewed-studio-bangku.webp',
@@ -95,7 +96,7 @@ export const wedding = {
   ] as [string, string][],
 
   photos: {
-    cover: IMG.prewed,
+    cover: IMG.prewedStudio,
     aside: IMG.walk,
     hero: IMG.prewed,
     quote: IMG.brideWide,
