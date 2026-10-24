@@ -30,7 +30,7 @@ export function Hero({ scroller, play }: Props) {
           src={photo(wedding.photos.hero, 1000)}
           alt="Nila & Bambang"
           style={{ y: imgY }}
-          className="photo-tone absolute inset-x-0 -top-[6%] h-[112%] w-full object-cover object-[47%_40%]"
+          className="photo-tone absolute inset-x-0 -top-[6%] h-[112%] w-full object-cover object-[50%_40%]"
           initial={{ scale: 1.2 }}
           animate={play ? { scale: 1 } : undefined}
           transition={{ duration: 2.4, ease: EASE, delay: 0.3 }}

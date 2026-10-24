@@ -23,6 +23,7 @@ const IMG = {
   groomBatik: '/images/mempelai-bambang-batik.webp',
   brideKebaya: '/images/mempelai-nila-kebaya.webp',
   studioWhisper: '/images/prewed-studio-bisik.webp',
+  studioWhisperPortrait: '/images/prewed-studio-bisik-potrait.webp',
   hiburan: '/images/hiburan-pernikahan.webp',
 }
 
@@ -98,7 +99,7 @@ export const wedding = {
   photos: {
     cover: IMG.prewedStudio,
     aside: IMG.walk,
-    hero: IMG.studioWhisper,
+    hero: IMG.studioWhisperPortrait,
     quote: IMG.brideWide,
     saveTheDate: IMG.bouquet,
     closing: IMG.walk,
