@@ -98,7 +98,7 @@ export const wedding = {
   photos: {
     cover: IMG.prewedStudio,
     aside: IMG.walk,
-    hero: IMG.prewed,
+    hero: IMG.studioWhisper,
     quote: IMG.brideWide,
     saveTheDate: IMG.bouquet,
     closing: IMG.walk,
